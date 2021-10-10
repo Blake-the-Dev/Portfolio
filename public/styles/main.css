@@ -1,10 +1,11 @@
 body {
   font-family: arial;
-  background: linear-gradient(#134F45, #222F48);
+  background: linear-gradient(#134F45, #222F48) fixed;
 }
 
-/*header*/
+/* Header */
 .headerBar {
+  display: flex;
   position: top;
   background-color: #2E9F61;
   border-radius: 20px;
@@ -16,20 +17,16 @@ body {
 }
 
 .headerBar a {
-  position: relative;
-  text-align: center;
-  padding: 15px 55px;
-  font-size: 16px;
   color: #FFFFFF;
+  max-width: 80%;
   text-decoration: none;
+  font-size: 16px;
   display: inline-block;
-  margin-left: 20px;
-}
-
-#contactsHeader {
-  float: right;
-  width: auto;
-  margin-right: 20px;
+  width: 25%;
+  padding-top: 15px;
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: center;
 }
 
 .headerBar a:hover {
@@ -42,55 +39,33 @@ body {
   font-size: 14px;
 }
 
-.homeCenter {
+.centerObject {
   text-align: center;
 }
 
-#homeProf {
+#picProfile {
   width: 298px;
   height: 290px;
   border-radius: 210px;
 }
 
 #glassBackground {
-  position: static;
   background-color: #0000004f;
-  width: 920px;
-  height: 140px;
+  width: 80%;
+  height: 300px;
   bottom: 20px;
   margin-right: auto;
   margin-left: auto;
-  opacity: 0;
 }
 
-#glassTextName,
-#glassTextJob {
+.glassText {
+  display: block;
   color: #FFFFFF;
   padding-top: 3%;
-  opacity: 1;
+  padding-bottom: 3%;
+  bottom: 90px;
 }
 
-#homeProf:hover ~ #glassBackground {
-  opacity: 1;
-  transition: 0.2s;
-}
-
-#Projects {
-  color: #FFFFFF;
-}
-
-#robotImg {
-  width: 250px;
-}
-
-#paraEdit {
-  font-size: 18px;
-}
-
-.photos {
-  display: block;
-}
-
-#ptext {
-  color: white;
+#glassTextBottom {
+  padding-bottom: 20%;
 }
