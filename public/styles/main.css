@@ -1,32 +1,41 @@
 body {
   font-family: arial;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#134F45), to(#222F48)) fixed;
   background: linear-gradient(#134F45, #222F48) fixed;
+  font-size: 1em;
 }
 
 /* Header */
 .headerBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: top;
   background-color: #2E9F61;
   border-radius: 20px;
   width: 80%;
-  height: 50px;
-  margin-top: 2%;
+  height: 49px;
+  margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.headerBar a {
-  color: #FFFFFF;
-  max-width: 80%;
-  text-decoration: none;
+.headerBar ul {
+  position: absolute;
+  padding-left: 0%;
+}
+
+.headerBar li {
+  list-style-type: none;
   font-size: 16px;
   display: inline-block;
-  width: 25%;
-  padding-top: 15px;
-  margin-left: 1%;
-  margin-right: 1%;
-  text-align: center;
+}
+
+.headerBar a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 25px;
 }
 
 .headerBar a:hover {
@@ -35,37 +44,39 @@ body {
 }
 
 /*main contents*/
-.mainBody {
-  font-size: 14px;
-}
-
-.centerObject {
+#centerObject {
   text-align: center;
+  font-size: 1em;
 }
 
 #picProfile {
   width: 298px;
   height: 290px;
   border-radius: 210px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+#centerObject h1 {
+  font-size: 1.6em;
+  margin-bottom: 30px;
 }
 
 #glassBackground {
   background-color: #0000004f;
   width: 80%;
-  height: 300px;
-  bottom: 20px;
+  height: 70%;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 40px;
 }
 
 .glassText {
   display: block;
-  color: #FFFFFF;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  bottom: 90px;
+  padding-top: 35px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
-
-#glassTextBottom {
-  padding-bottom: 20%;
-}
+/*# sourceMappingURL=main.css.map */
