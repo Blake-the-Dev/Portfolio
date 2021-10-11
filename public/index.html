@@ -4,14 +4,24 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/public/styles/main.css">
+        <link rel="stylesheet" href="./styles/main.css">
+        <script src="https://kit.fontawesome.com/a8b8e398cd.js" crossorigin="anonymous"></script>
         <title>Blake Latch - Portfolio</title>
     </head>
     <body>
 
         <header>
             <nav class="headerBar">
+                
                 <ul>
+                    <li id="menuIcon"><i class="fas fa-bars fa-2x"></i>
+                        <ul id="menuList">
+                            <li class="menuItem"><a href="index.html">Home</a></li>
+                            <li class="menuItem"><a href="about.html">About</a></li>
+                            <li class="menuItem"><a href="work.html">Work</a></li>
+                            <li class="menuItem"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="work.html">Work</a></li>
@@ -20,7 +30,7 @@
             </nav>
         </header>
 
-        <section id="centerObject">
+        <section id="containerSummary">
 
             <img id="picProfile" src="../src/images/profile.png" alt="Profile Photo">
 
@@ -31,7 +41,20 @@
                 <p class="glassText">I am a Full-Stack Web Developer who has experience across a number of different languages and technologies.</p>
                 <p class="glassText" id="glassTextBottom">Check out my porfolio to see some of the projects I have been working on.</p>
             </div>
+
         </section>
+        
+
+        <footer id="containerFooter">
+
+            <img src="../src/images/line.svg" alt="Page breaker" id="lineBreaker">
+            
+            <ul id="linkList">
+                <li><a href="https://github.com/Blake-the-Dev"><i class="fab fa-github fa-3x"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/blake-latch/"><i class="fab fa-linkedin fa-3x"></i></a></li>
+            </ul>
+
+        </footer>
 
     </body>
 </html>
