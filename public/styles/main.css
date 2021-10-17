@@ -69,8 +69,8 @@ body {
 #linkList li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 15px;
+  margin-right: 40px;
 }
 
 #linkList a {
@@ -127,7 +127,7 @@ body {
     position: relative;
     top: -7.5px;
   }
-  #menuIcon:hover #menuList {
+  #menuIcon:hover #menuList, #menuIcon:active #menuList {
     display: block !important;
     position: initial;
     padding-top: 30px;
@@ -136,18 +136,11 @@ body {
     width: 200px;
     left: 0%;
   }
-  #menuIcon:hover .menuItem {
+  #menuIcon:hover .menuItem, #menuIcon:active .menuItem {
     padding-top: 10px;
     display: block !important;
     padding-left: 10px;
     padding-bottom: 30px;
-  }
-}
-
-@media (max-width: 554px) and (hover: hover) and (pointer: fine) {
-  #menuIcon:hover .menuItem a:hover {
-    border-radius: 0%;
-    background-color: orange !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
