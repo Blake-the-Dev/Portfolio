@@ -5,6 +5,25 @@ body {
   background: linear-gradient(#134F45, #222F48) fixed;
 }
 
+#mainTitle {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#mainContainer {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: arial;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#134F45), to(#222F48)) fixed;
+  background: linear-gradient(#134F45, #222F48) fixed;
+}
+
 .headerBar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,6 +73,7 @@ body {
 #containerFooter {
   text-align: center;
   font-size: 1em;
+  padding-bottom: 50px;
 }
 
 #lineBreaker {
@@ -113,34 +133,9 @@ body {
   width: 60%;
 }
 
-@media (max-width: 554px) {
-  .headerBar {
-    position: relative;
-    width: 95%;
-  }
-  .headerBar li {
-    display: none;
-  }
-  #menuIcon {
-    display: initial !important;
-    padding-left: 25px;
-    position: relative;
-    top: -7.5px;
-  }
-  #menuIcon:hover #menuList, #menuIcon:active #menuList {
-    display: block !important;
-    position: initial;
-    padding-top: 30px;
-    padding-left: 15px;
-    background-color: teal;
-    width: 200px;
-    left: 0%;
-  }
-  #menuIcon:hover .menuItem, #menuIcon:active .menuItem {
-    padding-top: 10px;
-    display: block !important;
-    padding-left: 10px;
-    padding-bottom: 30px;
-  }
+#containerAbout {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=main.css.map */
